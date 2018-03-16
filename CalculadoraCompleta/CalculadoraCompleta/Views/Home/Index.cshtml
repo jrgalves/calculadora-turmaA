@@ -12,7 +12,7 @@
 </head>
 <body>
     <div>
-        <h1 style=" cloror:red;">calculadora mais completa</h1>
+        <h1 style=" color:red;">calculadora mais completa</h1>
         <!-- envia as escolhas do utilizador para o servidor-->
         <!-- esta linha de comentario e visivel no cliente-->
         @* mas esta nao o é... *@
@@ -20,7 +20,8 @@
             <table border="1">
                 <tr>
                     <td colspan="5">
-                        <input type="text" name="display" readonly />
+                        <input type="text" name="display" value="@ViewBag.Display" readonly />
+                        
                     </td>
                 </tr>
                 <tr>
